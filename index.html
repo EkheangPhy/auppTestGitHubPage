@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <label for="TnC"> Accept Terms and Conditions</label><br>
+  <input type="checkbox" id="TnC" onclick="myFunction()">
+
+  
+<p id="demo">>Checkbox</p>
+
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("TnC");
+  var text = document.getElementById("demo");  
+  
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
+
